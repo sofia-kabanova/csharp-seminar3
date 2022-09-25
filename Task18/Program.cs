@@ -4,15 +4,16 @@
 // возможных координат точек в этой четверти (x,y)
 Console.Clear();
 Console.Write("Введите номер четверти: ");
-int number = Convert.ToInt32(Console.ReadLine());
+string number = Console.ReadLine();// тип string-строка, т.к. конвертация не нужна,
+// с этими числами никаких вычеслений не делается. 
 //Console.WriteLine(quarter);
 //создаем метод: тип int, если возвращаем числа, или string, если текст
-string Quarter(int n)
+string Quarter(string n)
 {
- if (n==1) return "x> 0 и y>0";
- if (n==2) return "x< 0 и y>0";
- if (n==3) return "x< 0 и y<0";
- if (n==4) return "x> 0 и y<0";
+ if (n=="1") return "x> 0 и y>0";
+ if (n=="2") return "x< 0 и y>0";
+ if (n=="3") return "x< 0 и y<0";
+ if (n=="4") return "x> 0 и y<0";
  return "Некорректный номер четверти. Введите число от 1 до 4.";
 }
 // создаем переменную соответствующего типа, который возвращает наш метод, 
