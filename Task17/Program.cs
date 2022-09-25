@@ -3,6 +3,7 @@
 // причем Х ии Y не равны нулю
 // выдает номер четверти плоскости
 // в которой находится эта точка
+Console.Clear();
 Console.WriteLine("Введите координаты точки");
 Console.Write("X: ");
 int x = Convert.ToInt32(Console.ReadLine());
