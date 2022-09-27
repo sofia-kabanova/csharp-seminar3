@@ -13,6 +13,6 @@ Console.WriteLine($"Число: Квадрат:");
 int count=1;
 while (count<=n) 
 {
-    Console.WriteLine($"   {count}       {count*count}");
+    Console.WriteLine($"{count,3}{count*count,7}");
     count ++;
 }
