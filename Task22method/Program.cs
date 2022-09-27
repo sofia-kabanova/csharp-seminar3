@@ -16,7 +16,7 @@ void Square (int n, int c)
 {
     while (c<=n)
     {
-      Console.WriteLine($"{c,4} {c*c,6}");  
+      Console.WriteLine($"{c,4}{c*c,6}");  
       c++;
     }
 }
