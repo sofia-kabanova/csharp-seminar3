@@ -5,5 +5,5 @@ Console.Write($" {num} --> ");
 while ( num % 10 > 0 )
 {
    Console.Write(num % 10);
-   num = num/10;
+   num /= 10;
 } 
